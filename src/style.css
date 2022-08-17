@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+
+} 
+.img-search {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+.label {
+    font-size: 20px; 
+    font-weight: bold;
+}
+.show {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    padding: 10px;
+}
